@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 function App() {
   const [name, setName] = useState("");
-  const renderCount = useRef(1);
+  // const renderCount = useRef(1);
   // const inputRef = useRef();
   const prevName = useRef("");
   // const focus = () => {
